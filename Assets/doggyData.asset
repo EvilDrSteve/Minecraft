@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598de86c75df194e844aef0fdf326b9, type: 3}
+  m_Name: doggyData
+  m_EditorClassIdentifier: 
+  textureSizeX: 0.125
+  textureSizeY: 0.125
+  textureDataList:
+  - type: 0
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 0
+    generatesCollider: 0
+  - type: 1
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 0
+    generatesCollider: 0
+  - type: 2
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 1
+    generatesCollider: 1
+  - type: 3
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 1
+    generatesCollider: 1
+  - type: 4
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 1
+    generatesCollider: 1
+  - type: 5
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 1
+    generatesCollider: 1
+  - type: 6
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 1
+    generatesCollider: 1
+  - type: 7
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 1
+    generatesCollider: 1
+  - type: 8
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 1
+    generatesCollider: 1
+  - type: 9
+    up: {x: 3, y: 0}
+    down: {x: 3, y: 0}
+    side: {x: 3, y: 0}
+    isSolid: 0
+    generatesCollider: 0
+  - type: 10
+    up: {x: 0, y: 0}
+    down: {x: 0, y: 0}
+    side: {x: 0, y: 0}
+    isSolid: 1
+    generatesCollider: 1
