@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 120
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.16981131, g: 0.015183174, b: 0.0054467665, a: 1}
+  m_AmbientSkyColor: {r: 0.0039215707, g: 0.16862746, b: 0.10293448, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9aa8ed67591432941bb76f12eb23ff91, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.38317406, g: 0.5344811, b: 0.63250464, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -987,6 +987,61 @@ MonoBehaviour:
   Next: {fileID: 0}
   threshold: 0.5
   noiseSettings: {fileID: 11400000, guid: f55192c45b73a2c47a28a1d2a5bf1dc4, type: 2}
+--- !u!1 &1388960270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1388960272}
+  - component: {fileID: 1388960271}
+  m_Layer: 0
+  m_Name: Textures
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1388960271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388960270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f36618b6acf8340813c066d45d5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 922437482}
+  overworld: {fileID: 2100000, guid: a9b84eeb904f84b4695090d162e2b25c, type: 2}
+  nether: {fileID: 2100000, guid: 7898d34225bd7224f8050c1c9b562cc0, type: 2}
+  lava: {fileID: 2100000, guid: a7ac05e6c4090c846bb4549a264e67f9, type: 2}
+  water: {fileID: 2100000, guid: 779928011e6da994dae2d12ab4740999, type: 2}
+  overworld_sky: {fileID: 2100000, guid: 9aa8ed67591432941bb76f12eb23ff91, type: 2}
+  nether_sky: {fileID: 2100000, guid: 52fcefd712182d743a781fde12426775, type: 2}
+  overworld_fog: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+  nether_fog: {r: 0, g: 0, b: 0, a: 0}
+  overworldFogDensity: 0
+  netherFogDensity: 0
+--- !u!4 &1388960272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388960270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.301643, y: 9.52523, z: 20.390688}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1488942769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,7 +1361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1526a183435df2942b0290e8efc56a16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 0}
+  Next: {fileID: 1310779766}
   stoneThreshold: 0.7
   stoneNoiseSettings: {fileID: 11400000, guid: 9a3c3241bc05cb648a6016d54d4c0f0a, type: 2}
 --- !u!1 &1984421001

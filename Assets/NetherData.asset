@@ -28,21 +28,21 @@ MonoBehaviour:
     isSolid: 0
     generatesCollider: 0
   - type: 2
-    up: {x: 5, y: 1}
-    down: {x: 5, y: 0}
-    side: {x: 5, y: 2}
+    up: {x: 0, y: 1}
+    down: {x: 0, y: 1}
+    side: {x: 0, y: 1}
     isSolid: 1
     generatesCollider: 1
   - type: 3
-    up: {x: 5, y: 0}
-    down: {x: 5, y: 0}
-    side: {x: 5, y: 0}
+    up: {x: 0, y: 1}
+    down: {x: 0, y: 1}
+    side: {x: 0, y: 1}
     isSolid: 1
     generatesCollider: 1
   - type: 4
-    up: {x: 6, y: 0}
-    down: {x: 6, y: 0}
-    side: {x: 6, y: 0}
+    up: {x: 1, y: 1}
+    down: {x: 1, y: 1}
+    side: {x: 1, y: 1}
     isSolid: 1
     generatesCollider: 1
   - type: 5
